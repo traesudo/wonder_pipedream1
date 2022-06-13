@@ -51,7 +51,7 @@ request({
     headers: {
         "content-type": "application/json",
     },
-    json: truegit remote -v
+    json: true
 
 }, (error, response, body) => {
     if (!error && response.statusCode == 200) {
